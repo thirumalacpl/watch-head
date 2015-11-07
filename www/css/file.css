@@ -1858,6 +1858,10 @@ div.upload input {
         padding-top: 4% !important;
     }
     .head_tvo_line {
+    line-height: 2.6em !important; 
+    height: auto !important;
+    }
+     .head_tvo_line_1 {
     line-height: 2.8em !important; 
     height: auto !important;
     }
