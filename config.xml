@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.advs.manhummel.lpa" version="1.1.0">
-  <name>WATCH-head</name>
-  <description>WATCH-head</description>
+  <name>WATCHGUARDlive_tab</name>
+  <description>WATCHGUARDlive_tab</description>
   <author href="http://advicesync.com" email="support@advicesync.com">eImpressive</author>
   <content src="index.html"/>
 
@@ -8,7 +8,15 @@
 <!-- <gap:platform name="ios" />
 <gap:platform name="android" /> -->
 
+<preference name="SplashScreen" value="resourcename" />
 
+<preference name="AutoHideSplashScreen" value="true" />
+
+<preference name="SplashScreenDelay" value="3000" />
+
+<preference name="SplashScreen" value="foo" />
+<preference name="SplashScreenDelay" value="3000" />
+<preference name="SplashMaintainAspectRatio" value="true|false" />
 <!-- ios preferences -->
 <!-- <preference name="exit-on-suspend" value="false" />
 <preference name="prerendered-icon" value="true" />
@@ -106,6 +114,7 @@
 <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
 <gap:plugin name="cordova-plugin-camera" source="npm" />
 <!-- plugins -->
+ 
 
 
 <!--waste space plugin start-->
@@ -176,7 +185,7 @@
   <preference name="DisallowOverscroll" value="true" />
   <preference name="UIWebViewBounce" value="false" />
 
-  <icon src="icon.png"/>
+    <icon src="icon.png"/>
 <!-- android -->
   <icon src="www/images/icon/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/images/icon/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
@@ -226,8 +235,6 @@
       <icon src="ApplicationIcon.png" gap:platform="winphone"/>
 <!--   <icon src="ApplicationIcon.png" gap:platform="winphone" gap:role="background"/> -->
   <!-- windows end -->
-
-
                                                 <!--splash screen-->
 <!-- android -->
   <gap:splash src="www/images/screen/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
